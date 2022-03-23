@@ -6,6 +6,18 @@
     background-position: center;
 }
 
+.header2 {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo2 {
+    color: #8C1A11;
+    font-size: 14px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -27,7 +39,28 @@ nav {
     font-size: 14px;
 }
 
+.cmu-link2 {
+    background: #8C1A11;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 .container {
+    padding: 0 7%;
+}
+
+.location {
+    padding: 0 7%;
+}
+
+.date {
+    padding: 0 7%;
+}
+
+.time {
     padding: 0 7%;
 }
 
@@ -37,6 +70,13 @@ nav {
     color: #fff;
     text-align: center;
     padding: 5%;
+}
+
+.header h2 {
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
 }
 
 /* Search Box */
@@ -218,7 +258,6 @@ a {
 
 /* w3school css input boxes https://www.w3schools.com/css/css_form.asp */
 input[type=text], select, textarea {
-    width: 25%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -261,4 +300,42 @@ input[type=submit]:hover {
     width: 75%;
     margin-top: 6px;
 }
-    
+  
+.add-cart {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background:#ccc;
+    color:cornflowerblue;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container1{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+
+.sty{
+    font-size: 18px !important;
+    color: rgb(255, 255, 255) !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
