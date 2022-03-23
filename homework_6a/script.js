@@ -65,7 +65,7 @@ function removeItem(event){
 
 // guided by https://stackoverflow.com/questions/48804191/changing-html-content-with-javascript-based-on-dropdown-selection
 
-
+// Location
 var dropDown = document.getElementById("dropDown"),
    myWrappers = [
       document.getElementById("wrapperOne"),
@@ -92,6 +92,8 @@ for (i=0; i<myWrappers.length; i++){
  }
 }
 
+
+// Date
 var dropDown2 = document.getElementById("dropDown2"),
    myWrappers2 = [
       document.getElementById("wrapperFour"),
@@ -128,6 +130,7 @@ for (i=0; i<myWrappers2.length; i++){
  }
 }
 
+// Time of Day
 var dropDown3 = document.getElementById("dropDown3"),
    myWrappers3 = [
       document.getElementById("wrapperNine"),
